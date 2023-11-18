@@ -6,10 +6,12 @@ span {
 }
 
 footer {
-    
-    color: darkblue;
-    padding: 15px;
+    flex-shrink: 0;
+    color: darkblue;    
     font-weight: bold;
+    width: 100%;
+    bottom: 0;
+    
     li{
         padding: 15px;
     }
@@ -75,12 +77,12 @@ div{
     justify-content: space-between;
 
     padding-top: 20px;
-    padding-right: 80px;
+    padding-right: 180px;
     padding-bottom: 60px;
-    padding-left: 80px;
+    padding-left: 180px;
 
     margin-top: 80px;
-    margin-left: 200px;
+    margin-left: 180px;
     margin-right: 180px;
     margin-bottom: 40px;
 
