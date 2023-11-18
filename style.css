@@ -68,5 +68,25 @@ h4 {
         margin-bottom: 5px;
         
     }
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+
+    margin-top: 80px;
+    margin-left: 200px;
+    margin-right: 180px;
+    margin-bottom: 40px;
+
+    color:white;
+    background-color:darkblue;
+    border: 20px solid black;
+    
+}
     
