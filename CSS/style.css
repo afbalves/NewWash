@@ -64,6 +64,32 @@ h4 {
     text-align: center;
 }
 
+
+input {
+    padding: .2rem .5rem;
+  }
+  
+  .helper-text {
+    display: none;
+    font-size: .8rem;
+    color: rgb(247, 243, 243);
+  }
+  
+  .orientacao {
+    margin-top: 1.5rem;
+    font-size: .7rem;
+  }
+  
+  button {
+    width: 100px;
+    height: 40px;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    align-self: center;
+  }
+  
+
+
 .input-label, .input-form{
         display: block;
         margin-bottom: 5px;
@@ -91,4 +117,45 @@ div{
     border: 20px solid black;
     
 }
-    
+
+.required-popup::after {
+    content: "*Campo obrigatório";
+    position: absolute;
+    top: 0;
+    right: 0;
+    color:red;
+    font-size: .65rem;
+    padding: .2rem .3rem;
+    width: auto;
+    display: block;
+    background-color: #202020;
+  }
+  
+  input.error {
+    border: solid 2px #992020;
+    background-color: #CCBBBB;
+    color: #662020;
+  }
+  
+  input.correct {
+    background-color: #BBCCBB;
+    border: solid 2px #206620;
+    color: #206620;
+  }
+
+  textarea.error {
+    border: solid 2px #992020;
+    background-color: #CCBBBB;
+    color: #662020;
+  }
+  
+  textarea.correct {
+    background-color: #BBCCBB;
+    border: solid 2px #206620;
+    color: #206620;
+  }
+  
+  
+  .visible {
+    display: block;
+  }

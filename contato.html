@@ -22,21 +22,22 @@
      </nav>
     <h1>Contato</h1>
     <div>
-        <form action="">
+        <form id="form">
             <label class="input-label">Nome Completo:</label>
-            <input size="60" class="input-form" id="nome" type="text" />
+            <input type="text" id="username" name="username">
+            <p id="username-helper" class="helper-text">Mensagem de ajuda</p>
 
             <label class="input-label">Telefone:</label>
-            <input size="60" class="input-form" id="Telefone" type="tel"/>
+            <input type="text" id="tel" name="tel">
+            <p id="tel-helper" class="helper-text">Mensagem de ajuda</p>
 
             <label class="input-label">Email:</label>
-            <input size="60" class="input-form" id="email" type="email" />
-
-            <label class="input-label">Confirmação de Email:</label>
-            <input size="60" class="input-form" id="confirmacaoEmail" type="email" />
+            <input type="email" id="email" name="email">
+            <p id="email-helper" class="helper-text">Mensagem de ajuda</p>
 
             <label class="input-label">Mensagem:</label>
-            <textarea cols="60" rows="10" class="input-form" id="Mensagem" type="text"></textarea><br>
+            <textarea cols="60" rows="10" id="texto" type="text" name="texto"></textarea><br>
+            <p id="texto-helper" class="helper-text">Mensagem de ajuda</p>
             
 
         <button type="submit">Enviar</button>
